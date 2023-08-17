@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C730787F2A894D9C001AA1BA /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = C730787E2A894D9C001AA1BA /* Building.swift */; };
+		C73078812A894E61001AA1BA /* Dinosaur.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73078802A894E61001AA1BA /* Dinosaur.swift */; };
+		C73078842A894FC7001AA1BA /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73078832A894FC7001AA1BA /* DataSource.swift */; };
+		C73078862A8ACDAF001AA1BA /* DinoIdentificationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73078852A8ACDAF001AA1BA /* DinoIdentificationDetail.swift */; };
+		C78A5F2F2A87AE22007CD64B /* JurassicWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A5F2E2A87AE22007CD64B /* JurassicWorldApp.swift */; };
+		C78A5F312A87AE22007CD64B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A5F302A87AE22007CD64B /* ContentView.swift */; };
+		C78A5F332A87AE23007CD64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78A5F322A87AE23007CD64B /* Assets.xcassets */; };
+		C78A5F362A87AE23007CD64B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78A5F352A87AE23007CD64B /* Preview Assets.xcassets */; };
+		C78A5F3D2A87BC38007CD64B /* IslandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A5F3C2A87BC38007CD64B /* IslandView.swift */; };
+		C78A5F3F2A87BC42007CD64B /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A5F3E2A87BC42007CD64B /* BuildingsView.swift */; };
+		C78A5F412A87BC5F007CD64B /* DinosaursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A5F402A87BC5F007CD64B /* DinosaursView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C730787E2A894D9C001AA1BA /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		C73078802A894E61001AA1BA /* Dinosaur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinosaur.swift; sourceTree = "<group>"; };
+		C73078832A894FC7001AA1BA /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		C73078852A8ACDAF001AA1BA /* DinoIdentificationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoIdentificationDetail.swift; sourceTree = "<group>"; };
+		C78A5F2B2A87AE22007CD64B /* JurassicWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JurassicWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78A5F2E2A87AE22007CD64B /* JurassicWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JurassicWorldApp.swift; sourceTree = "<group>"; };
+		C78A5F302A87AE22007CD64B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C78A5F322A87AE23007CD64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C78A5F352A87AE23007CD64B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C78A5F3C2A87BC38007CD64B /* IslandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandView.swift; sourceTree = "<group>"; };
+		C78A5F3E2A87BC42007CD64B /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
+		C78A5F402A87BC5F007CD64B /* DinosaursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaursView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78A5F282A87AE22007CD64B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C730787D2A894D89001AA1BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C730787E2A894D9C001AA1BA /* Building.swift */,
+				C73078802A894E61001AA1BA /* Dinosaur.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C73078822A894F66001AA1BA /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				C73078832A894FC7001AA1BA /* DataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		C78A5F222A87AE22007CD64B = {
+			isa = PBXGroup;
+			children = (
+				C78A5F2D2A87AE22007CD64B /* JurassicWorld */,
+				C78A5F2C2A87AE22007CD64B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78A5F2C2A87AE22007CD64B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78A5F2B2A87AE22007CD64B /* JurassicWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78A5F2D2A87AE22007CD64B /* JurassicWorld */ = {
+			isa = PBXGroup;
+			children = (
+				C73078822A894F66001AA1BA /* DataSource */,
+				C730787D2A894D89001AA1BA /* Model */,
+				C78A5F2E2A87AE22007CD64B /* JurassicWorldApp.swift */,
+				C78A5F302A87AE22007CD64B /* ContentView.swift */,
+				C78A5F322A87AE23007CD64B /* Assets.xcassets */,
+				C78A5F342A87AE23007CD64B /* Preview Content */,
+				C78A5F3C2A87BC38007CD64B /* IslandView.swift */,
+				C78A5F3E2A87BC42007CD64B /* BuildingsView.swift */,
+				C78A5F402A87BC5F007CD64B /* DinosaursView.swift */,
+				C73078852A8ACDAF001AA1BA /* DinoIdentificationDetail.swift */,
+			);
+			path = JurassicWorld;
+			sourceTree = "<group>";
+		};
+		C78A5F342A87AE23007CD64B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C78A5F352A87AE23007CD64B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78A5F2A2A87AE22007CD64B /* JurassicWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78A5F392A87AE23007CD64B /* Build configuration list for PBXNativeTarget "JurassicWorld" */;
+			buildPhases = (
+				C78A5F272A87AE22007CD64B /* Sources */,
+				C78A5F282A87AE22007CD64B /* Frameworks */,
+				C78A5F292A87AE22007CD64B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JurassicWorld;
+			productName = JurassicWorld;
+			productReference = C78A5F2B2A87AE22007CD64B /* JurassicWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78A5F232A87AE22007CD64B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C78A5F2A2A87AE22007CD64B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = C78A5F262A87AE22007CD64B /* Build configuration list for PBXProject "JurassicWorld" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C78A5F222A87AE22007CD64B;
+			productRefGroup = C78A5F2C2A87AE22007CD64B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78A5F2A2A87AE22007CD64B /* JurassicWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78A5F292A87AE22007CD64B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78A5F362A87AE23007CD64B /* Preview Assets.xcassets in Resources */,
+				C78A5F332A87AE23007CD64B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78A5F272A87AE22007CD64B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78A5F312A87AE22007CD64B /* ContentView.swift in Sources */,
+				C730787F2A894D9C001AA1BA /* Building.swift in Sources */,
+				C73078812A894E61001AA1BA /* Dinosaur.swift in Sources */,
+				C78A5F3D2A87BC38007CD64B /* IslandView.swift in Sources */,
+				C73078842A894FC7001AA1BA /* DataSource.swift in Sources */,
+				C78A5F3F2A87BC42007CD64B /* BuildingsView.swift in Sources */,
+				C73078862A8ACDAF001AA1BA /* DinoIdentificationDetail.swift in Sources */,
+				C78A5F412A87BC5F007CD64B /* DinosaursView.swift in Sources */,
+				C78A5F2F2A87AE22007CD64B /* JurassicWorldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C78A5F372A87AE23007CD64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C78A5F382A87AE23007CD64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78A5F3A2A87AE23007CD64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JurassicWorld/Preview Content\"";
+				DEVELOPMENT_TEAM = SS6PRDLZ47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.namorhan.JurassicWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C78A5F3B2A87AE23007CD64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JurassicWorld/Preview Content\"";
+				DEVELOPMENT_TEAM = SS6PRDLZ47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.namorhan.JurassicWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78A5F262A87AE22007CD64B /* Build configuration list for PBXProject "JurassicWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78A5F372A87AE23007CD64B /* Debug */,
+				C78A5F382A87AE23007CD64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78A5F392A87AE23007CD64B /* Build configuration list for PBXNativeTarget "JurassicWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78A5F3A2A87AE23007CD64B /* Debug */,
+				C78A5F3B2A87AE23007CD64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78A5F232A87AE22007CD64B /* Project object */;
+}
